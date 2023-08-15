@@ -9,6 +9,7 @@ import {
   IconBrandGoogle,
 } from "@tabler/icons-react";
 import { Montserrat_Alternates } from "next/font/google";
+import { api } from "~/utils/api";
 
 const montserratAlt = Montserrat_Alternates({
   weight: "400",
